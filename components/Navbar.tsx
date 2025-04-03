@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className='flex gap-4'>
             <ModeToggle />
-            <Button>Logout</Button>
+            <Button className='hover:cursor-pointer'>Logout</Button>
         </div>
     </div>
   )
